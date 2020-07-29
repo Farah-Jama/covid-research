@@ -1,0 +1,5 @@
+@media (max-width: 767px){
+  [class*=navbar-] .navbar-nav > li > a:not(.btn) {
+    color: #66615B;
+  }
+}

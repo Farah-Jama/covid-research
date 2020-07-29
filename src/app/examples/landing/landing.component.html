@@ -1,0 +1,60 @@
+<div class="page-header" data-parallax="true" style="background-image: url('./assets/img/COVID-19research_banner_1920x1200.png');">
+    <div class="filter"></div>
+    <div class="container">
+        <div class="motto text-center">
+            <h1>COVID-19 research</h1>
+            <h3>{{subtitle}}</h3>
+            <br />
+        </div>
+    </div>
+</div>
+<div class="main">
+    <div class="section text-left">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mr-auto ml-auto">
+                <h2 class="title">{{ content_title }}</h2>
+                <h5 class="description">{{ content }}<br /><br />
+                    <ul>
+                        <li>{{ first_item }}</li>
+                        <li>{{ second_item }}</li>
+                        <li>{{ third_item }}</li>
+                    </ul>
+                </h5>
+
+
+                <br>
+                <h5 *ngIf="lang === 'nl'">Klik <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_3xQizslfsPYTdY1">hier</a> voor de enquête in het Nederlands
+                    <br>
+                    benieuwd waarom we dit onderzoek doen? Lees ons artikel <a
+                    target="_blank"
+                    href="https://www.medischcontact.nl/nieuws/laatste-nieuws/artikel/hypertensie-en-de-rol-van-het-raas-bij-sars-cov-2-.htm">hier!</a>
+
+                </h5>
+                <h5 *ngIf="lang === 'en'">Click <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_brBF370BuwcYBa5">here</a> for the form in English</h5>
+                <h5 *ngIf="lang === 'it'">Clicca <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_1Cb4wVm16EMa7Wd">qui</a> il sondaggio in italiano</h5>
+                <h5 *ngIf="lang === 'es'">Haga clic <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_6rRch60zMFA3Ebj">aquí</a>para la encuesta en español</h5>
+                <h5 *ngIf="lang === 'de'">Klicken Sie <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_4ZsMYC9O7YC1wfH">hier</a> für die Umfrage in Deutsch</h5>
+                <h5 *ngIf="lang === 'fr'">Cliquez <a target="_blank" href="https://uvacommscience.eu.qualtrics.com/jfe/form/SV_3kru4nwqXZcPpxX">ici</a> pour l'enquête en français</h5>
+            </div>
+        </div>
+        <br/><br/>
+        <hr class="col-md-12">
+    </div>
+</div>
+
+    <div class="section landing-section">
+        <div class="container">
+            <br>
+                <video controls class="col-md-12" src="./assets/img/covid-research_video.mp4"></video>
+            <br>
+            <hr class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 mr-auto ml-auto">
+                    <h2 class="text-left">{{ question }}</h2>
+                    <h5 class="description"> {{ question_text }} <a href="mailto:covid.research2020@gmail.com">covid.research2020@gmail.com</a></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
